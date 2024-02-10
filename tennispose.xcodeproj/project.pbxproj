@@ -16,6 +16,9 @@
 		0B3039C72B733E6B003D1B37 /* tennisposeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3039C62B733E6B003D1B37 /* tennisposeTests.swift */; };
 		0B3039D12B733E6B003D1B37 /* tennisposeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3039D02B733E6B003D1B37 /* tennisposeUITests.swift */; };
 		0B3039D32B733E6B003D1B37 /* tennisposeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3039D22B733E6B003D1B37 /* tennisposeUITestsLaunchTests.swift */; };
+		0B3039E02B73606C003D1B37 /* yolov8n-pose.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 0B3039DF2B73606C003D1B37 /* yolov8n-pose.mlpackage */; };
+		0B3039E22B7390E3003D1B37 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3039E12B7390E3003D1B37 /* FrameView.swift */; };
+		0B3039E42B739181003D1B37 /* FrameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3039E32B739181003D1B37 /* FrameHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		0B3039CC2B733E6B003D1B37 /* tennisposeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tennisposeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3039D02B733E6B003D1B37 /* tennisposeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tennisposeUITests.swift; sourceTree = "<group>"; };
 		0B3039D22B733E6B003D1B37 /* tennisposeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tennisposeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B3039DF2B73606C003D1B37 /* yolov8n-pose.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = "yolov8n-pose.mlpackage"; sourceTree = "<group>"; };
+		0B3039E12B7390E3003D1B37 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		0B3039E32B739181003D1B37 /* FrameHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 		0B3039AF2B733E6A003D1B37 /* tennispose */ = {
 			isa = PBXGroup;
 			children = (
+				0B3039DF2B73606C003D1B37 /* yolov8n-pose.mlpackage */,
 				0B3039B02B733E6A003D1B37 /* tennisposeApp.swift */,
 				0B3039B22B733E6A003D1B37 /* ContentView.swift */,
+				0B3039E12B7390E3003D1B37 /* FrameView.swift */,
+				0B3039E32B739181003D1B37 /* FrameHandler.swift */,
 				0B3039B42B733E6B003D1B37 /* Assets.xcassets */,
 				0B3039B92B733E6B003D1B37 /* Persistence.swift */,
 				0B3039BB2B733E6B003D1B37 /* tennispose.xcdatamodeld */,
@@ -263,10 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3039E22B7390E3003D1B37 /* FrameView.swift in Sources */,
+				0B3039E02B73606C003D1B37 /* yolov8n-pose.mlpackage in Sources */,
 				0B3039BA2B733E6B003D1B37 /* Persistence.swift in Sources */,
 				0B3039B32B733E6A003D1B37 /* ContentView.swift in Sources */,
 				0B3039B12B733E6A003D1B37 /* tennisposeApp.swift in Sources */,
 				0B3039BD2B733E6B003D1B37 /* tennispose.xcdatamodeld in Sources */,
+				0B3039E42B739181003D1B37 /* FrameHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +442,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tennispose/Preview Content\"";
-				DEVELOPMENT_TEAM = BJAL34ZPP9;
+				DEVELOPMENT_TEAM = CX634G49Y7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required for review";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,9 +472,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tennispose/Preview Content\"";
-				DEVELOPMENT_TEAM = BJAL34ZPP9;
+				DEVELOPMENT_TEAM = CX634G49Y7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required for review";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

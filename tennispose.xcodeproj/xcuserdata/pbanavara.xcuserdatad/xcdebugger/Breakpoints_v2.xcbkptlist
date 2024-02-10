@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B8357891-B4A3-400A-9493-D0F8C8F2FEEA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "470A94BE-CC9D-4482-A4B4-238C03269A14"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tennispose/FrameHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "setupCaptureSession()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09E365A7-0C28-4809-8FDD-5071881E2C9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tennispose/FrameHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "setupCaptureSession()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D740FCBC-5253-4016-BE3A-B23BCF82A058"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tennispose/FrameHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "imageFromSampleBuffer(sampleBuffer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AC847C6-8640-4877-BF6B-71FD497EDE8C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tennispose/FrameHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "imageFromSampleBuffer(sampleBuffer:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8AC847C6-8640-4877-BF6B-71FD497EDE8C - 44b2148dad9c40b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tennispose.FrameHandler.imageFromSampleBuffer(sampleBuffer: __C.CMSampleBufferRef) -&gt; Swift.Optional&lt;__C.CGImageRef&gt;"
+                  moduleName = "tennispose"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pbanavara/dev/tennispose/tennispose/FrameHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "8AC847C6-8640-4877-BF6B-71FD497EDE8C - 44b2148dad9c40b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tennispose.FrameHandler.imageFromSampleBuffer(sampleBuffer: __C.CMSampleBufferRef) -&gt; Swift.Optional&lt;__C.CGImageRef&gt;"
+                  moduleName = "tennispose"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pbanavara/dev/tennispose/tennispose/FrameHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "656">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B52B36A1-EA51-4230-B590-08BCFAEF7F43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tennispose/FrameHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "imageFromSampleBuffer(sampleBuffer:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B52B36A1-EA51-4230-B590-08BCFAEF7F43 - 44b2148dad9c42ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tennispose.FrameHandler.imageFromSampleBuffer(sampleBuffer: __C.CMSampleBufferRef) -&gt; Swift.Optional&lt;__C.CGImageRef&gt;"
+                  moduleName = "tennispose"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pbanavara/dev/tennispose/tennispose/FrameHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "800">
+               </Location>
+               <Location
+                  uuid = "B52B36A1-EA51-4230-B590-08BCFAEF7F43 - 44b2148dad9c42a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tennispose.FrameHandler.imageFromSampleBuffer(sampleBuffer: __C.CMSampleBufferRef) -&gt; Swift.Optional&lt;__C.CGImageRef&gt;"
+                  moduleName = "tennispose"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pbanavara/dev/tennispose/tennispose/FrameHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "1212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
